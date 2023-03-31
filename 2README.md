@@ -17,6 +17,9 @@ ssh root@10.15.19.82
 
 密码:1313144
 
+添加modem
+nmcli con add con-name "Mobile modem" type gsm
+
 切卡:
 
 nano /usr/lib/systemd/system/openstick-sim-changer.service
